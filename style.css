@@ -3,6 +3,9 @@ body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 .header {
     width: 100%;
@@ -22,6 +25,7 @@ nav {
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    text-decoration: none;
 }
 
 
@@ -29,12 +33,16 @@ nav {
     display: inline-block;
     padding: 10px 25px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .header ul li a:hover {
     color: rgb(90, 78, 62);
     transition: 0.5s;
 } 
+.header ul li a{
+    text-decoration: none;
+}
 .home {
     height: auto;
     width: auto;
